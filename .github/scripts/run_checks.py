@@ -30,6 +30,13 @@ def git(*args: str, check: bool = True) -> str:
     return result.stdout
 
 
+def git_succeeds(*args: str) -> bool:
+    return subprocess.run(
+        ["git", *args], cwd=ROOT, stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    ).returncode == 0
+
+
 def tracked_files() -> list[Path]:
     return [ROOT / p for p in git("ls-files").splitlines() if p]
 
@@ -61,7 +68,7 @@ def is_template(path: Path) -> bool:
 
 def check_clean_tree() -> list[str]:
     problems = []
-    if git("diff", "--quiet", check=False) or git("diff", "--cached", "--quiet", check=False):
+    if not git_succeeds("diff", "--quiet") or not git_succeeds("diff", "--cached", "--quiet"):
         problems.append("worktree or index is dirty; checks read committed Git objects")
     return problems
 

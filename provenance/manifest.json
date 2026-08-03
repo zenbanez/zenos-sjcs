@@ -49,7 +49,7 @@
     },
     {
       "target_path": ".github/scripts/run_checks.py",
-      "output_sha256": "aa956a0a58b5629700b02da816060e0ae35066c69ef0c0084853214c0bd9e05f",
+      "output_sha256": "001ad0d0cf1c082a7337986096f7cd347963b2de79268ebc75111aef12c774c4",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -1000,5 +1000,5 @@
       "update_policy": "local-steward-proposal-only"
     }
   ],
-  "output_content_sha256": "212cbf4dbf9614621d30167fa22779532115e0dd87889af4e47317a637a801b4"
+  "output_content_sha256": "2a5ad4f34b20c073949801f84a8bc8d2397064893acfdf9e1fa25326065f2ed3"
 }
