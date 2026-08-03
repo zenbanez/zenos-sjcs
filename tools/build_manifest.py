@@ -187,6 +187,16 @@ def sync_exact_copies(source_repo: Path) -> None:
         destination.write_bytes(source_bytes(source_repo, source_path))
 
 
+def normalize_authored_text() -> None:
+    """Materialize authored RC0 files with host-neutral LF bytes."""
+    for target in AUTHORED:
+        path = ROOT / target
+        data = path.read_bytes()
+        if b"\0" in data:
+            raise RuntimeError(f"authored output is not text: {target}")
+        path.write_bytes(data.replace(b"\r\n", b"\n").replace(b"\r", b"\n"))
+
+
 def serialized(value: dict) -> bytes:
     return (json.dumps(value, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
 
@@ -203,6 +213,7 @@ def main() -> int:
         # Materialize from committed Git blobs, not a source working tree or
         # git-archive checkout filters. This prevents silent EOL conversion.
         sync_exact_copies(source_repo)
+        normalize_authored_text()
     manifest, provenance = build(source_repo)
     expected_manifest, expected_provenance = serialized(manifest), serialized(provenance)
     if args.write:

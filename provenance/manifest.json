@@ -8,7 +8,7 @@
   },
   "build": {
     "procedure_ref": "tools/build_manifest.py",
-    "procedure_sha256": "a63b348da02af3aaf30b5d9e209e28e8b5c7ea8aae67669194880a288a58995a",
+    "procedure_sha256": "55e21163074fdfe5695473ee31c1182fd0880c8d04872232d6fe538032ca80e3",
     "deterministic_inputs_only": true
   },
   "review": {
@@ -35,7 +35,7 @@
   "entries": [
     {
       "target_path": ".gitattributes",
-      "output_sha256": "da80a44f5753d087299a901262f95f39e58149ab3f5077f663807051659aa880",
+      "output_sha256": "3e0821ea3e39c8f141e4eb8756af86dca52134ca99a8b87011d0c1ca22a58596",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -77,7 +77,7 @@
     },
     {
       "target_path": ".gitignore",
-      "output_sha256": "2959ee4a39616900f2484040fd0031114aeebe9ad83591f486d10e2665dcad06",
+      "output_sha256": "31008684e61ae6ddb7799c5ae75b58fdd20ea85d15939f98af765164442e073c",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -287,7 +287,7 @@
     },
     {
       "target_path": "archive/evidence/.gitkeep",
-      "output_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -301,7 +301,7 @@
     },
     {
       "target_path": "archive/projects/.gitkeep",
-      "output_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -315,7 +315,7 @@
     },
     {
       "target_path": "archive/workspaces/.gitkeep",
-      "output_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -889,7 +889,7 @@
     },
     {
       "target_path": "tools/build_manifest.py",
-      "output_sha256": "a63b348da02af3aaf30b5d9e209e28e8b5c7ea8aae67669194880a288a58995a",
+      "output_sha256": "55e21163074fdfe5695473ee31c1182fd0880c8d04872232d6fe538032ca80e3",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -1028,5 +1028,5 @@
       "update_policy": "local-steward-proposal-only"
     }
   ],
-  "output_content_sha256": "4923b766207dbbeddb0cab8034a9ea68a8ec5f66cc556fcbb2b3990e351a98d4"
+  "output_content_sha256": "556950c30b48fa9a1504b8a2cce47241aef9ea907e93ad841b0453d77686b596"
 }
