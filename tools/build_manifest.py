@@ -42,7 +42,8 @@ AUTHORED = {
     "knowledge/log.md", "knowledge/templates/concept.md", "modules/registry.md", "participants/README.md",
     "participants/authors-map.md", "participants/templates/agent.md", "participants/templates/human.md",
     "projects/README.md", "projects/templates/project.md", "provenance/FORK-SECURITY.md",
-    "provenance/SOURCE-PROVENANCE.md", "provenance/build-authors-map.md", "tools/bootstrap_instance.py",
+    "provenance/DISCLOSURE-REVIEW.md", "provenance/SOURCE-PROVENANCE.md",
+    "provenance/build-authors-map.md", "tools/bootstrap_instance.py",
     "tools/build_manifest.py", "tools/verify_release.py", "workflows/README.md", "workflows/bootstrap.md",
     "workflows/deliberation.md", "workflows/intent-progress.md", "workflows/returned-wisdom.md",
     "workspaces/README.md", "workspaces/templates/delegations.md", "workspaces/templates/workspace.md",
@@ -55,7 +56,10 @@ def sha256(data: bytes) -> str:
 
 def source_bytes(repo: Path, source_path: str) -> bytes:
     result = subprocess.run(
-        ["git", "-C", str(repo), "show", f"{SOURCE_COMMIT}:{source_path}"],
+        [
+            "git", "-c", f"safe.directory={repo}", "-C", str(repo), "show",
+            f"{SOURCE_COMMIT}:{source_path}",
+        ],
         stdout=subprocess.PIPE, stderr=subprocess.PIPE,
     )
     if result.returncode:

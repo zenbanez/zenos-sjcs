@@ -43,9 +43,13 @@ def main() -> int:
     parser.add_argument("--participant-email", required=True)
     parser.add_argument("--agent-string", required=True, type=safe_id)
     parser.add_argument("--warrant-id", required=True)
+    parser.add_argument("--observation-warrant-id", required=True)
     args = parser.parse_args()
-    if not re.fullmatch(r"w_[A-Za-z0-9]{10,}", args.warrant_id):
-        parser.error("--warrant-id must be w_ plus at least 10 random-style characters")
+    for option, value in (("--warrant-id", args.warrant_id), ("--observation-warrant-id", args.observation_warrant_id)):
+        if not re.fullmatch(r"w_[A-Za-z0-9]{10,}", value):
+            parser.error(f"{option} must be w_ plus at least 10 random-style characters")
+    if args.warrant_id == args.observation_warrant_id:
+        parser.error("warrant IDs must be distinct")
 
     root = args.root.resolve()
     if list((root / "intents").glob("INT-*.md")) or list((root / "workspaces").glob("WS-*")):
@@ -57,6 +61,15 @@ def main() -> int:
 
 Verify that this local house can establish identity, delegation, evidence, and
 one merge-ready contribution using only shipped guidance.
+
+## In scope
+
+- A synthetic first-participant observation and local guard run.
+
+## Out of scope
+
+- External communication, remote changes, real personal data, and
+  institutional adoption.
 
 ## Success conditions
 
@@ -99,7 +112,13 @@ Return one bounded observation through the local branch-and-review loop.
 - **Review condition:** Local steward reviews the committed diff.
 - **Status:** active.
 """)
-    write_new(workspace_dir / "notes/observation.md", f"# Synthetic Observation\n\n{args.participant_name} observed that the shipped arrival path was sufficient to establish the first bounded contribution.\n")
+    write_new(
+        workspace_dir / "notes/observation.md",
+        frontmatter(
+            "WS-0001-observation-note", "workspace-note", args.steward_id,
+            args.date, "intent: INT-0001\nworkspace: WS-0001\n",
+        ) + f"# Synthetic Observation\n\n{args.participant_name} observed that the shipped arrival path was sufficient to establish the first bounded contribution.\n",
+    )
 
     progress = frontmatter("INT-0001-progress", "progress-register", args.steward_id, args.date, "intent: INT-0001\n") + """# INT-0001 Progress — First Contribution
 
@@ -111,18 +130,75 @@ Return one bounded observation through the local branch-and-review loop.
 - **Next action or judgment:** Local steward reviews the contribution.
 """
     write_new(root / "intents/progress/INT-0001.md", progress)
-    (root / "intents/progress/index.md").write_text(frontmatter("intents-progress-index", "index", args.steward_id, args.date).replace("status: active", "status: active") + """# Intent Progress Index
+    (root / "intents/progress/index.md").write_text(frontmatter("intents-progress-index", "index", args.steward_id, args.date).replace("version: 1", "version: 2") + """# Intent Progress Index
 
 | Intent | Source status | Operational view | Primary room | Attention |
 |---|---|---|---|---|
 | [INT-0001](INT-0001.md) | active | awaiting-steward | WS-0001 | Review the first contribution. |
 """, encoding="utf-8", newline="\n")
 
-    source = frontmatter("synthetic-bootstrap-observation", "evidence-source", args.steward_id, args.date, "intent: INT-0001\n") + "# Synthetic Bootstrap Observation\n\nNo private-house context or real personal data was used.\n"
+    source = frontmatter("synthetic-bootstrap-observation", "evidence-source", args.steward_id, args.date, "intent: INT-0001\n") + """# Synthetic Bootstrap Observation
+
+## Method
+
+Followed the shipped arrival sequence and ran the deterministic local
+scaffolder with fixed synthetic identities and dates.
+
+## Observation
+
+The repository supplied enough local guidance and scaffolding to create the
+first intent, workspace, delegation, participant registration, and root
+warrant without private-house context, real personal data, or network access.
+
+## Limit
+
+This observation covers only the bounded first-contribution path; it does not
+establish production fitness.
+"""
     write_new(root / "evidence/sources/synthetic-bootstrap-observation.md", source)
-    concept = frontmatter("first-loop-is-legible", "concept", args.steward_id, args.date, "intent: INT-0001\n") + "# The First Loop Is Legible\n\nProposed from the synthetic bootstrap observation; promotion remains with the local steward.\n"
+    source_hash = hashlib.sha256(source.encode("utf-8")).hexdigest()
+    concept = frontmatter("first-loop-is-legible", "concept", args.steward_id, args.date, "intent: INT-0001\n").replace("status: active", "status: proposed") + """# The First Loop Is Legible
+
+## Claim
+
+The shipped repository is locally legible enough to instantiate its minimum
+first-contribution relationships without outside house context.
+
+## Evidence
+
+- [Synthetic bootstrap observation](../../evidence/sources/synthetic-bootstrap-observation.md)
+
+## Confidence and limits
+
+Moderate confidence for this bounded synthetic path. Promotion remains with
+the local human steward.
+"""
     write_new(root / "knowledge/concepts/first-loop-is-legible.md", concept)
-    decision = frontmatter("DEC-0001", "decision", args.steward_id, args.date, "intent: INT-0001\n").replace("status: active", "status: proposed") + "# DEC-0001: Accept or Amend the First Contribution\n\nAwaiting local steward disposition.\n"
+    (root / "knowledge/index.md").write_text(
+        frontmatter("knowledge-index", "index", args.steward_id, args.date).replace("version: 1", "version: 2") + """# Knowledge Index
+
+No local concepts have been promoted.
+
+## Proposed candidates
+
+- [The First Loop Is Legible](concepts/first-loop-is-legible.md)
+""", encoding="utf-8", newline="\n",
+    )
+    decision = frontmatter("DEC-0001", "decision", args.steward_id, args.date, "intent: INT-0001\n").replace("status: active", "status: proposed") + """# DEC-0001: Accept or Amend the First Contribution
+
+## Decision proposed
+
+Accept or amend the bounded first contribution after local guard review.
+
+## Basis and evidence
+
+- [Synthetic bootstrap observation](../evidence/sources/synthetic-bootstrap-observation.md)
+
+## Consequences and retained judgment
+
+No institutional adoption occurs through this proposal. Final disposition
+remains with the local steward.
+"""
     write_new(root / "decisions/DEC-0001-first-contribution.md", decision)
 
     warrant = {
@@ -132,8 +208,20 @@ Return one bounded observation through the local branch-and-review loop.
         "from": None, "issued_at": args.issued_at,
         "context": {"intent": "INT-0001", "workspace": "WS-0001", "delegation": "D-001", "synthetic": True},
     }
+    observation_warrant = {
+        "version": "v0", "warrant_id": args.observation_warrant_id,
+        "agent": args.agent_string, "action": "zenos.evidence.observe",
+        "target": "evidence/sources/synthetic-bootstrap-observation.md",
+        "content_hash": f"sha256:{source_hash}", "from": args.warrant_id,
+        "issued_at": args.issued_at,
+        "context": {"intent": "INT-0001", "workspace": "WS-0001", "delegation": "D-001", "synthetic": True},
+    }
     month = args.date[:7].replace("-", "/")
-    write_new(root / f"evidence/warrants/{args.agent_string}/{month}.jsonl", json.dumps(warrant, separators=(",", ":")) + "\n")
+    write_new(
+        root / f"evidence/warrants/{args.agent_string}/{month}.jsonl",
+        json.dumps(warrant, separators=(",", ":")) + "\n" +
+        json.dumps(observation_warrant, separators=(",", ":")) + "\n",
+    )
     print(f"Drafted synthetic house at {root}")
     print(f"INT-0001 sha256:{intent_hash}")
     print("Review, commit with mapped identity, and run .github/scripts/run_checks.py")

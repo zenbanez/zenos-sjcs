@@ -8,7 +8,7 @@
   },
   "build": {
     "procedure_ref": "tools/build_manifest.py",
-    "procedure_sha256": "82811c6b7ec935d8d1b00db2d7c963b0f1f0a7dc61f070e0967d58db1c197169",
+    "procedure_sha256": "69e3dfd1f5d27e281b734cc7f28df77cb003e9ed89d56ac2631377463759469c",
     "deterministic_inputs_only": true
   },
   "review": {
@@ -804,6 +804,20 @@
       "update_policy": "local-steward-proposal-only"
     },
     {
+      "target_path": "provenance/DISCLOSURE-REVIEW.md",
+      "output_sha256": "abe2a32be104b63d98b14bd3449e84ced304828dadba9431977982c441246514",
+      "origin": "authored-for-rc0",
+      "source_path": null,
+      "source_sha256": null,
+      "mode": "authored-for-rc0",
+      "role": "operating-core",
+      "required": true,
+      "disclosure_class": "private-rc0-reviewed-new-artifact",
+      "rights_ref": "WS-0028/D-010 original integration; redistribution-gate-open",
+      "canonical_after_instantiation": "local-instance",
+      "update_policy": "local-steward-proposal-only"
+    },
+    {
       "target_path": "provenance/FORK-SECURITY.md",
       "output_sha256": "8690baf920c6eecce1e85c5545b188b01ede09ede79a7a811b6cfbd9e02bbecf",
       "origin": "authored-for-rc0",
@@ -847,7 +861,7 @@
     },
     {
       "target_path": "tools/bootstrap_instance.py",
-      "output_sha256": "1f2108c058db53bc789f8dadcef2602bae6483a8fe4fab555b343307a4063d0a",
+      "output_sha256": "8f8a4dd95f5c0b250acb156ea2cfd51f0339a03cae3438f31bff20a2ea88b0bd",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -861,7 +875,7 @@
     },
     {
       "target_path": "tools/build_manifest.py",
-      "output_sha256": "82811c6b7ec935d8d1b00db2d7c963b0f1f0a7dc61f070e0967d58db1c197169",
+      "output_sha256": "69e3dfd1f5d27e281b734cc7f28df77cb003e9ed89d56ac2631377463759469c",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -1000,5 +1014,5 @@
       "update_policy": "local-steward-proposal-only"
     }
   ],
-  "output_content_sha256": "2a5ad4f34b20c073949801f84a8bc8d2397064893acfdf9e1fa25326065f2ed3"
+  "output_content_sha256": "aab1e59cdca638e01b140989d6edfc6ce21dede17238bdda723a2266d30fce81"
 }
