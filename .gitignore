@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+secrets/
+
+# Runtime data and backups
+*.db
+*.sqlite*
+*.dump
+*.bak
+backups/
+volumes/
+data/
+
+# Generated state and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+dist/
+build/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.vscode/
+.idea/
+*.log

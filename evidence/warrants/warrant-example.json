@@ -1,0 +1,10 @@
+{
+  "version": "v0",
+  "warrant_id": "w_RANDOM_SUFFIX",
+  "agent": "source-purpose-version",
+  "action": "zenos.task.commission",
+  "target": "WS-0001/D-001",
+  "content_hash": "sha256:INTENT_FILE_SHA256",
+  "from": null,
+  "issued_at": "YYYY-MM-DDTHH:MM:SSZ"
+}
