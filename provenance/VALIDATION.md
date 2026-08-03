@@ -13,6 +13,8 @@ legal clearance, or production-fitness claim.
 - Every RFC and candidate licence output was compared byte-for-byte with its
   frozen source Git blob. Reading Git blobs directly prevented checkout and
   archive line-ending filters from silently altering exact copies.
+- All text outputs, including extensionless files, are checkout-canonicalized
+  to LF so authored-file hashes remain stable across host platforms.
 - The explicit allowlist, containment scan, fork-safe hosted-workflow static
   review, and all local constitutional checks passed from committed state.
 - A seeded dirty-tree test proved the local runner fails closed. An earlier

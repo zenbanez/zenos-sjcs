@@ -35,7 +35,7 @@
   "entries": [
     {
       "target_path": ".gitattributes",
-      "output_sha256": "309216ea6499dd93fcf9c4d1af32299eaf3c48c8d7e28db725b9bf7841cd23b9",
+      "output_sha256": "da80a44f5753d087299a901262f95f39e58149ab3f5077f663807051659aa880",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -77,7 +77,7 @@
     },
     {
       "target_path": ".gitignore",
-      "output_sha256": "31008684e61ae6ddb7799c5ae75b58fdd20ea85d15939f98af765164442e073c",
+      "output_sha256": "2959ee4a39616900f2484040fd0031114aeebe9ad83591f486d10e2665dcad06",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -287,7 +287,7 @@
     },
     {
       "target_path": "archive/evidence/.gitkeep",
-      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "output_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -301,7 +301,7 @@
     },
     {
       "target_path": "archive/projects/.gitkeep",
-      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "output_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -315,7 +315,7 @@
     },
     {
       "target_path": "archive/workspaces/.gitkeep",
-      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "output_sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -847,7 +847,7 @@
     },
     {
       "target_path": "provenance/VALIDATION.md",
-      "output_sha256": "cd245f91abd62ce6950f3ad81c44b99c9dbc59f380d116b3a9d0418c2169b0fa",
+      "output_sha256": "9d4e74a57823dec5bbdd93d02c92adae10800d933fb7a7cb5e930205d1342db4",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -1028,5 +1028,5 @@
       "update_policy": "local-steward-proposal-only"
     }
   ],
-  "output_content_sha256": "d2907105898a0c2ae130a78b26d06952da6b16e5b191820ef2a57b3534cf558a"
+  "output_content_sha256": "4923b766207dbbeddb0cab8034a9ea68a8ec5f66cc556fcbb2b3990e351a98d4"
 }
