@@ -8,7 +8,7 @@
   },
   "build": {
     "procedure_ref": "tools/build_manifest.py",
-    "procedure_sha256": "69e3dfd1f5d27e281b734cc7f28df77cb003e9ed89d56ac2631377463759469c",
+    "procedure_sha256": "a63b348da02af3aaf30b5d9e209e28e8b5c7ea8aae67669194880a288a58995a",
     "deterministic_inputs_only": true
   },
   "review": {
@@ -846,6 +846,20 @@
       "update_policy": "local-steward-proposal-only"
     },
     {
+      "target_path": "provenance/VALIDATION.md",
+      "output_sha256": "cd245f91abd62ce6950f3ad81c44b99c9dbc59f380d116b3a9d0418c2169b0fa",
+      "origin": "authored-for-rc0",
+      "source_path": null,
+      "source_sha256": null,
+      "mode": "authored-for-rc0",
+      "role": "operating-core",
+      "required": true,
+      "disclosure_class": "private-rc0-reviewed-new-artifact",
+      "rights_ref": "WS-0028/D-010 original integration; redistribution-gate-open",
+      "canonical_after_instantiation": "local-instance",
+      "update_policy": "local-steward-proposal-only"
+    },
+    {
       "target_path": "provenance/build-authors-map.md",
       "output_sha256": "effaa3f47f3178338cab9b20a1be7075fe641127c4160b9a0604b5001d4f33ac",
       "origin": "authored-for-rc0",
@@ -875,7 +889,7 @@
     },
     {
       "target_path": "tools/build_manifest.py",
-      "output_sha256": "69e3dfd1f5d27e281b734cc7f28df77cb003e9ed89d56ac2631377463759469c",
+      "output_sha256": "a63b348da02af3aaf30b5d9e209e28e8b5c7ea8aae67669194880a288a58995a",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -1014,5 +1028,5 @@
       "update_policy": "local-steward-proposal-only"
     }
   ],
-  "output_content_sha256": "aab1e59cdca638e01b140989d6edfc6ce21dede17238bdda723a2266d30fce81"
+  "output_content_sha256": "d2907105898a0c2ae130a78b26d06952da6b16e5b191820ef2a57b3534cf558a"
 }

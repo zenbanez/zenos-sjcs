@@ -42,7 +42,7 @@ AUTHORED = {
     "knowledge/log.md", "knowledge/templates/concept.md", "modules/registry.md", "participants/README.md",
     "participants/authors-map.md", "participants/templates/agent.md", "participants/templates/human.md",
     "projects/README.md", "projects/templates/project.md", "provenance/FORK-SECURITY.md",
-    "provenance/DISCLOSURE-REVIEW.md", "provenance/SOURCE-PROVENANCE.md",
+    "provenance/DISCLOSURE-REVIEW.md", "provenance/SOURCE-PROVENANCE.md", "provenance/VALIDATION.md",
     "provenance/build-authors-map.md", "tools/bootstrap_instance.py",
     "tools/build_manifest.py", "tools/verify_release.py", "workflows/README.md", "workflows/bootstrap.md",
     "workflows/deliberation.md", "workflows/intent-progress.md", "workflows/returned-wisdom.md",
