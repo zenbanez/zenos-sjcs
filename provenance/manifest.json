@@ -8,7 +8,7 @@
   },
   "build": {
     "procedure_ref": "tools/build_manifest.py",
-    "procedure_sha256": "55e21163074fdfe5695473ee31c1182fd0880c8d04872232d6fe538032ca80e3",
+    "procedure_sha256": "2c4ab0e1efd976a71c42827d27ace7994b4088b7fd3eae75d79a67299f887717",
     "deterministic_inputs_only": true
   },
   "review": {
@@ -203,15 +203,15 @@
     },
     {
       "target_path": "README.md",
-      "output_sha256": "fa5d62fa197d1fa8d5774606af2fc90bcf76349916a7a23665eb4e658ca60537",
+      "output_sha256": "1f923eb4a31b76cdbe786f162d6948c9ee5a6aef205c874da3b1442d174753cc",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
       "mode": "authored-for-rc0",
-      "role": "operating-core",
+      "role": "arrival-guidance",
       "required": true,
-      "disclosure_class": "private-rc0-reviewed-new-artifact",
-      "rights_ref": "WS-0028/D-010 original integration; redistribution-gate-open",
+      "disclosure_class": "private-rc0-reviewed-human-arrival-adaptation",
+      "rights_ref": "WS-0028/D-011 adaptation; Katuwang source attribution preserved",
       "canonical_after_instantiation": "local-instance",
       "update_policy": "local-steward-proposal-only"
     },
@@ -259,15 +259,15 @@
     },
     {
       "target_path": "WELCOME.md",
-      "output_sha256": "6159050c4229d2555416a6ace615112b3f98aef4891e786494e2f2989d26dbcf",
+      "output_sha256": "f91dca3e9ba0d9c893cdf51c192929b9e856efc9e060cbeec3ac317dd38e1682",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
       "mode": "authored-for-rc0",
-      "role": "operating-core",
+      "role": "arrival-guidance",
       "required": true,
-      "disclosure_class": "private-rc0-reviewed-new-artifact",
-      "rights_ref": "WS-0028/D-010 original integration; redistribution-gate-open",
+      "disclosure_class": "private-rc0-reviewed-human-arrival-adaptation",
+      "rights_ref": "WS-0028/D-011 adaptation; Katuwang source attribution preserved",
       "canonical_after_instantiation": "local-instance",
       "update_policy": "local-steward-proposal-only"
     },
@@ -324,6 +324,20 @@
       "required": true,
       "disclosure_class": "private-rc0-reviewed-new-artifact",
       "rights_ref": "WS-0028/D-010 original integration; redistribution-gate-open",
+      "canonical_after_instantiation": "local-instance",
+      "update_policy": "local-steward-proposal-only"
+    },
+    {
+      "target_path": "arrival-infographic.svg",
+      "output_sha256": "a71d7007d7b251d2c7d861d145e3aa6744167544d56603ff0ae67878b0780732",
+      "origin": "zen-os-exact-copy",
+      "source_path": "workspaces/WS-0028-public-readiness-and-sustainable-ci/notes/human-arrival/arrival-infographic.svg",
+      "source_sha256": "a71d7007d7b251d2c7d861d145e3aa6744167544d56603ff0ae67878b0780732",
+      "mode": "exact-copy",
+      "role": "arrival-guidance",
+      "required": true,
+      "disclosure_class": "private-rc0-reviewed-human-arrival-source",
+      "rights_ref": "WS-0028/D-011 steward-reviewed human-arrival source",
       "canonical_after_instantiation": "local-instance",
       "update_policy": "local-steward-proposal-only"
     },
@@ -804,8 +818,22 @@
       "update_policy": "local-steward-proposal-only"
     },
     {
+      "target_path": "prompt-flow.md",
+      "output_sha256": "6bab5e60b70a7e67516d0212e80029f231283f6f2beddfd002c1e89b0bd0ebec",
+      "origin": "authored-for-rc0",
+      "source_path": null,
+      "source_sha256": null,
+      "mode": "authored-for-rc0",
+      "role": "arrival-guidance",
+      "required": true,
+      "disclosure_class": "private-rc0-reviewed-human-arrival-adaptation",
+      "rights_ref": "WS-0028/D-011 adaptation; Katuwang source attribution preserved",
+      "canonical_after_instantiation": "local-instance",
+      "update_policy": "local-steward-proposal-only"
+    },
+    {
       "target_path": "provenance/DISCLOSURE-REVIEW.md",
-      "output_sha256": "ff2984b555dd7b839f1143b72ee4264ab361f462faffbf69d3631d150535dc75",
+      "output_sha256": "98a07978d3d7303ab6c6a2b865f353c78ba0789165f12ac29e8609c2dafd62ff",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -832,6 +860,20 @@
       "update_policy": "local-steward-proposal-only"
     },
     {
+      "target_path": "provenance/HUMAN-ARRIVAL-PROVENANCE.md",
+      "output_sha256": "90a2a60f39ef91ebfa6df06f5f38fc7bcb970fb6b7df5c222c2ed901176692cb",
+      "origin": "authored-for-rc0",
+      "source_path": null,
+      "source_sha256": null,
+      "mode": "authored-for-rc0",
+      "role": "arrival-guidance",
+      "required": true,
+      "disclosure_class": "private-rc0-reviewed-human-arrival-adaptation",
+      "rights_ref": "WS-0028/D-011 adaptation; Katuwang source attribution preserved",
+      "canonical_after_instantiation": "local-instance",
+      "update_policy": "local-steward-proposal-only"
+    },
+    {
       "target_path": "provenance/SOURCE-PROVENANCE.md",
       "output_sha256": "5657a22c62b152dc608ed700af736cc2fec18256277908d351742ada89b81959",
       "origin": "authored-for-rc0",
@@ -847,7 +889,7 @@
     },
     {
       "target_path": "provenance/VALIDATION.md",
-      "output_sha256": "b304801efee91d55ff3de776615efab2bd7fb76b7fa74fc5141b7a9d8ab99aaa",
+      "output_sha256": "b020f7bed1d1a24904351e7ebfb258cc5863d2aa2f503794258b7c8269d5fb37",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -889,7 +931,7 @@
     },
     {
       "target_path": "tools/build_manifest.py",
-      "output_sha256": "55e21163074fdfe5695473ee31c1182fd0880c8d04872232d6fe538032ca80e3",
+      "output_sha256": "2c4ab0e1efd976a71c42827d27ace7994b4088b7fd3eae75d79a67299f887717",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -903,7 +945,7 @@
     },
     {
       "target_path": "tools/verify_release.py",
-      "output_sha256": "14d08de0b2ebf19d0f868828bc5d775d434ef5ee79127dda82b04e28287692b0",
+      "output_sha256": "e29c18846dffe8a535fed04a02231ee2e66de4dc5d18ff19e9c5319b266674f8",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -1028,5 +1070,5 @@
       "update_policy": "local-steward-proposal-only"
     }
   ],
-  "output_content_sha256": "0faa254e5cf717834afeb6a10588881e9a90b62f96b2a4b8ea8952cef7ed76fc"
+  "output_content_sha256": "6da5b52f779c47256b0bc07b26be40b86319c1f22712446ad8a52456a171c7fb"
 }

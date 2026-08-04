@@ -69,5 +69,14 @@ not weakened to ignore the boundary commit.
 - human arrival and accessibility testing; and
 - field-security design and live-data approval for any organization instance.
 
+## Human-arrival refinement
+
+After private RC0 PR #1 was accepted, D-011 added the steward-reviewed arrival
+infographic and prompt-flow guide, adapted the human welcome, and reorganized
+the README around first arrival. The phrasebook explicitly carries no authority.
+The SVG contains no script, external reference, embedded binary, or event
+handler. Deterministic, containment, constitutional, fresh-checkout, and hosted
+PR validation must pass again before this refinement is returned.
+
 Recommendation: **GO for private steward and independent review; HOLD public
 release, adoption, and field deployment.**
