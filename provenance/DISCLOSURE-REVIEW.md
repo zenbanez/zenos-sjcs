@@ -22,6 +22,9 @@ review, not the independent review itself and not authorization to publish.
   that attribution and as the mapped private RC0 commissioning/review steward.
   The latter is build provenance required for GitHub's synthetic PR merge
   commit, not a receiving-house participant registration.
+- The human-arrival kit preserves Katuwang/claude-cowork's authorship in a
+  bounded provenance record. It does not import Katuwang's participant record,
+  warrant trail, conversation, or other living-house context.
 
 ## Intentionally excluded
 

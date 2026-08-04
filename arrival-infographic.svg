@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1010 700" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Welcome to your house — the ZenOS arrival loop</title>
+  <desc id="dsc">A calm one-page map. A central loop runs Intent, Workspace, Delegation, Action, Evidence, Knowledge, Decision, and back to a wiser Intent. On the left, what the human steward alone decides; on the right, what the agent drafts. Below, three founding principles.</desc>
+  <rect x="6" y="6" width="998" height="688" rx="22" fill="#FAF7EF" stroke="#e2dccf"/>
+  <text x="505" y="58" text-anchor="middle" font-size="30" font-weight="700" fill="#183B36">Welcome to your house</text>
+  <text x="505" y="86" text-anchor="middle" font-size="15" fill="#7a756b">A place where you and your agents think together — calmly, in the open.</text>
+
+  <circle cx="505" cy="360" r="186" fill="none" stroke="#4B8B6B" stroke-width="1.6" stroke-dasharray="2 7" opacity="0.7"/>
+  <g fill="#4B8B6B">
+    <path d="M -6,-6 L 8,0 L -6,6 Z" transform="translate(686,318) rotate(77)"/>
+    <path d="M -6,-6 L 8,0 L -6,6 Z" transform="translate(505,546) rotate(180)"/>
+    <path d="M -6,-6 L 8,0 L -6,6 Z" transform="translate(324,318) rotate(-77)"/>
+  </g>
+
+  <g transform="translate(473.3,328.3) scale(0.36)" opacity="0.95">
+    <path d="M24 82V51C24 36.1 36.1 24 51 24h31v27H58c-3.9 0-7 3.1-7 7v24H24Z" fill="#183B36"/>
+    <path d="M94 24h31c14.9 0 27 12.1 27 27v31h-27V58c0-3.9-3.1-7-7-7H94V24Z" fill="#4B8B6B"/>
+    <path d="M152 94v31c0 14.9-12.1 27-27 27H94v-27h24c3.9 0 7-3.1 7-7V94h27Z" fill="#C4703F"/>
+    <path d="M82 152H51c-14.9 0-27-12.1-27-27V94h27v24c0 3.9 3.1 7 7 7h24v27Z" fill="#D9A945"/>
+  </g>
+
+  <g font-size="14" font-weight="600" fill="#26302b" text-anchor="middle">
+    <g><rect x="453" y="157" width="104" height="34" rx="17" fill="#fff" stroke="#183B36" stroke-width="1.4"/><text x="505" y="179">Intent</text></g>
+    <g><rect x="598" y="227" width="104" height="34" rx="17" fill="#fff" stroke="#183B36" stroke-width="1.4"/><text x="650" y="249">Workspace</text></g>
+    <g><rect x="634" y="384" width="104" height="34" rx="17" fill="#fff" stroke="#183B36" stroke-width="1.4"/><text x="686" y="406">Delegation</text></g>
+    <g><rect x="534" y="511" width="104" height="34" rx="17" fill="#fff" stroke="#183B36" stroke-width="1.4"/><text x="586" y="533">Action</text></g>
+    <g><rect x="372" y="511" width="104" height="34" rx="17" fill="#fff" stroke="#183B36" stroke-width="1.4"/><text x="424" y="533">Evidence</text></g>
+    <g><rect x="272" y="384" width="104" height="34" rx="17" fill="#fff" stroke="#183B36" stroke-width="1.4"/><text x="324" y="406">Knowledge</text></g>
+    <g><rect x="308" y="227" width="104" height="34" rx="17" fill="#fff" stroke="#183B36" stroke-width="1.4"/><text x="360" y="249">Decision</text></g>
+  </g>
+  <text x="505" y="588" text-anchor="middle" font-size="12.5" fill="#7a756b">one turn of the loop → a wiser intent</text>
+
+  <text x="40" y="150" font-size="17" font-weight="700" fill="#183B36">You decide</text>
+  <g font-size="13.5" fill="#26302b">
+    <circle cx="45" cy="178" r="3.5" fill="#183B36"/><text x="58" y="182">Name new work</text>
+    <circle cx="45" cy="218" r="3.5" fill="#183B36"/><text x="58" y="222">Set scope &amp; limits</text>
+    <circle cx="45" cy="258" r="3.5" fill="#183B36"/><text x="58" y="262">Grant permission</text>
+    <circle cx="45" cy="298" r="3.5" fill="#183B36"/><text x="58" y="302">Confirm what's known</text>
+    <circle cx="45" cy="338" r="3.5" fill="#183B36"/><text x="58" y="342">Decide when done</text>
+  </g>
+
+  <text x="970" y="150" font-size="17" font-weight="700" fill="#C4703F" text-anchor="end">Your agent drafts</text>
+  <g font-size="13.5" fill="#26302b" text-anchor="end">
+    <circle cx="965" cy="178" r="3.5" fill="#C4703F"/><text x="952" y="182">Scaffold the records</text>
+    <circle cx="965" cy="218" r="3.5" fill="#C4703F"/><text x="952" y="222">Triage evidence</text>
+    <circle cx="965" cy="258" r="3.5" fill="#C4703F"/><text x="952" y="262">Distill lessons</text>
+    <circle cx="965" cy="298" r="3.5" fill="#C4703F"/><text x="952" y="302">Leave warrants</text>
+    <circle cx="965" cy="338" r="3.5" fill="#C4703F"/><text x="952" y="342">Surface attention</text>
+  </g>
+
+  <g font-size="13.5" font-weight="600" fill="#183B36" text-anchor="middle">
+    <rect x="34" y="648" width="306" height="40" rx="20" fill="#fff" stroke="#e2dccf"/><text x="187" y="673">The repository is the truth</text>
+    <rect x="352" y="648" width="306" height="40" rx="20" fill="#fff" stroke="#e2dccf"/><text x="505" y="673">Capability is not consent</text>
+    <rect x="670" y="648" width="306" height="40" rx="20" fill="#fff" stroke="#e2dccf"/><text x="823" y="673">The interface is the welcome</text>
+  </g>
+</svg>

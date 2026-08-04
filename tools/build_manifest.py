@@ -27,12 +27,19 @@ EXACT = {
     "LICENSE": "workspaces/WS-0028-public-readiness-and-sustainable-ci/notes/license-set/LICENSE",
     "LICENSE-docs": "workspaces/WS-0028-public-readiness-and-sustainable-ci/notes/license-set/LICENSE-docs",
     "NOTICE": "workspaces/WS-0028-public-readiness-and-sustainable-ci/notes/license-set/NOTICE",
+    "arrival-infographic.svg": "workspaces/WS-0028-public-readiness-and-sustainable-ci/notes/human-arrival/arrival-infographic.svg",
+}
+
+ARRIVAL_AUTHORED = {
+    "README.md", "WELCOME.md", "prompt-flow.md",
+    "provenance/HUMAN-ARRIVAL-PROVENANCE.md",
 }
 
 AUTHORED = {
     ".gitattributes", ".github/scripts/run_checks.py", ".github/workflows/constitutional-ci.yml", ".gitignore",
     "ADOPTION.md", "AGENTS.md", "CONTRIBUTING.md", "GOVERNANCE.md", "ONBOARDING.md", "README.md",
     "RIGHTS-STATUS.md", "SECURITY.md", "SUPPORT.md", "WELCOME.md",
+    "prompt-flow.md",
     "archive/README.md", "archive/evidence/.gitkeep", "archive/projects/.gitkeep", "archive/workspaces/.gitkeep",
     "constitution/PROVENANCE.md", "decisions/README.md", "decisions/templates/decision.md",
     "decisions/templates/deliberation.md", "evidence/README.md", "evidence/sources/README.md",
@@ -42,7 +49,8 @@ AUTHORED = {
     "knowledge/log.md", "knowledge/templates/concept.md", "modules/registry.md", "participants/README.md",
     "participants/authors-map.md", "participants/templates/agent.md", "participants/templates/human.md",
     "projects/README.md", "projects/templates/project.md", "provenance/FORK-SECURITY.md",
-    "provenance/DISCLOSURE-REVIEW.md", "provenance/SOURCE-PROVENANCE.md", "provenance/VALIDATION.md",
+    "provenance/DISCLOSURE-REVIEW.md", "provenance/HUMAN-ARRIVAL-PROVENANCE.md",
+    "provenance/SOURCE-PROVENANCE.md", "provenance/VALIDATION.md",
     "provenance/build-authors-map.md", "tools/bootstrap_instance.py",
     "tools/build_manifest.py", "tools/verify_release.py", "workflows/README.md", "workflows/bootstrap.md",
     "workflows/deliberation.md", "workflows/intent-progress.md", "workflows/returned-wisdom.md",
@@ -107,6 +115,10 @@ def build(source_repo: Path) -> tuple[dict, dict]:
                 rights = "RIGHTS-STATUS.md#candidate-rights-status; private-evaluation-only"
                 disclosure = "private-rc0-reviewed-exact-constitutional-source"
                 role = "normative-core"
+            elif target == "arrival-infographic.svg":
+                rights = "WS-0028/D-011 steward-reviewed human-arrival source"
+                disclosure = "private-rc0-reviewed-human-arrival-source"
+                role = "arrival-guidance"
             else:
                 rights = "WS-0028/D-007 candidate; redistribution-gate-open"
                 disclosure = "private-rc0-license-candidate"
@@ -115,9 +127,14 @@ def build(source_repo: Path) -> tuple[dict, dict]:
             origin = "authored-for-rc0"
             source_path = None
             source_hash = None
-            rights = "WS-0028/D-010 original integration; redistribution-gate-open"
-            disclosure = "private-rc0-reviewed-new-artifact"
-            role = "operating-core"
+            if target in ARRIVAL_AUTHORED:
+                rights = "WS-0028/D-011 adaptation; Katuwang source attribution preserved"
+                disclosure = "private-rc0-reviewed-human-arrival-adaptation"
+                role = "arrival-guidance"
+            else:
+                rights = "WS-0028/D-010 original integration; redistribution-gate-open"
+                disclosure = "private-rc0-reviewed-new-artifact"
+                role = "operating-core"
         entries.append({
             "target_path": target,
             "output_sha256": sha256(data),

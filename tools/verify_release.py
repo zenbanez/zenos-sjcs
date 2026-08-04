@@ -7,10 +7,11 @@ import argparse
 import json
 import re
 import subprocess
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT_EXTENSIONS = {".md", ".json", ".jsonl", ".py", ".yml", ".yaml", ".txt", ""}
+TEXT_EXTENSIONS = {".md", ".json", ".jsonl", ".py", ".yml", ".yaml", ".txt", ".svg", ""}
 SECRET_PATTERNS = {
     "private key": rb"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----",
     "GitHub token": rb"\bgh[pousr]_[A-Za-z0-9]{20,}\b",
@@ -40,6 +41,14 @@ def main() -> int:
         data = path.read_bytes()
         if b"\0" in data or path.suffix.lower() not in TEXT_EXTENSIONS:
             binary_paths.append(rel)
+        if path.suffix.lower() == ".svg":
+            try:
+                ET.fromstring(data)
+            except ET.ParseError as exc:
+                problems.append(f"malformed SVG {rel}: {exc}")
+            svg_forbidden = rb"<(?:script|foreignObject)\b|\bon[a-z]+\s*=|\b(?:href|xlink:href)\s*=|\bdata:"
+            if re.search(svg_forbidden, data, re.IGNORECASE):
+                problems.append(f"active or external SVG content in {rel}")
         for label, pattern in SECRET_PATTERNS.items():
             if re.search(pattern, data):
                 problems.append(f"{label} pattern in {rel}")
