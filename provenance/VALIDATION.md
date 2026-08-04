@@ -49,6 +49,16 @@ through an already-operating house. `ONBOARDING.md` and the scaffolder make
 that exceptional boundary explicit enough for RC0, but independent reviewers
 may recommend clearer constitutional treatment later.
 
+## Hosted review-boundary repair
+
+The first GitHub PR run evaluated GitHub's synthetic merge commit rather than
+only the candidate head. GitHub attributed that proposed merge to the steward,
+whose identity was not yet in the distribution build-author map. The guard
+failed correctly. The map now records Zen Bañez as the private RC0
+commissioning/review steward, distinct from receiving-house participant
+standing. The candidate continues to test the merged result; the workflow was
+not weakened to ignore the boundary commit.
+
 ## Gates still open
 
 - independent rights and contributor-attribution review;

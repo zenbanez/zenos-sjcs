@@ -54,14 +54,14 @@ def main() -> int:
     if "secrets." in workflow:
         problems.append("hosted workflow references repository secrets")
 
-    # Exact constitutional attribution is expected and explained. It is not a
-    # local participant registry. Any other private-house identity disclosure
-    # belongs in independent review rather than being silently ignored.
+    # Named constitutional and build-provenance identities are expected and
+    # explained in the disclosure review. They are not a local participant
+    # registry. Independent review still verifies that boundary.
     explained = []
     for name in ("Zen Bañez", "Aletheios"):
         count = sum((ROOT / e["target_path"]).read_text(encoding="utf-8", errors="ignore").count(name) for e in manifest["entries"])
         if count:
-            explained.append(f"{name}: {count} exact-source attribution occurrence(s)")
+            explained.append(f"{name}: {count} reviewed attribution/provenance occurrence(s)")
 
     if problems:
         print("RC0 CONTAINMENT RESULT: FAIL")

@@ -18,6 +18,10 @@ review, not the independent review itself and not authorization to publish.
   `RIGHTS-STATUS.md`; their presence does not authorize redistribution.
 - Sol appears only as the commissioned RC0 integration author and mapped Git
   identity.
+- Zen Bañez appears as the constitutional author where exact source preserves
+  that attribution and as the mapped private RC0 commissioning/review steward.
+  The latter is build provenance required for GitHub's synthetic PR merge
+  commit, not a receiving-house participant registration.
 
 ## Intentionally excluded
 
@@ -39,6 +43,7 @@ binary-like output, privileged pull-request triggers, hosted secret use, and
 workflow write permissions.
 
 A focused scan of the authored layer found no unexplained living-house or
-participant identity. The expected private repository coordinates above are
-the only first-house identifiers in authored prose or tooling. Independent
-rights, disclosure, security, and steward review remain open gates.
+participant identity. The expected private repository coordinates and the two
+explicit build identities above are the only first-house identifiers in
+authored prose or tooling. Independent rights, disclosure, security, and
+steward review remain open gates.

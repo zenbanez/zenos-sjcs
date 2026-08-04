@@ -805,7 +805,7 @@
     },
     {
       "target_path": "provenance/DISCLOSURE-REVIEW.md",
-      "output_sha256": "abe2a32be104b63d98b14bd3449e84ced304828dadba9431977982c441246514",
+      "output_sha256": "ff2984b555dd7b839f1143b72ee4264ab361f462faffbf69d3631d150535dc75",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -847,7 +847,7 @@
     },
     {
       "target_path": "provenance/VALIDATION.md",
-      "output_sha256": "9d4e74a57823dec5bbdd93d02c92adae10800d933fb7a7cb5e930205d1342db4",
+      "output_sha256": "b304801efee91d55ff3de776615efab2bd7fb76b7fa74fc5141b7a9d8ab99aaa",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -861,7 +861,7 @@
     },
     {
       "target_path": "provenance/build-authors-map.md",
-      "output_sha256": "effaa3f47f3178338cab9b20a1be7075fe641127c4160b9a0604b5001d4f33ac",
+      "output_sha256": "54d8152180667513eb29f5dbd9795afc5cfe0342afb58cc8a6dd5ce36f8b3b44",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -903,7 +903,7 @@
     },
     {
       "target_path": "tools/verify_release.py",
-      "output_sha256": "61ee10775c1c765b5fc58f4e7b290bfa12b307cdd6e7c2448eec8b1bcb5a71a4",
+      "output_sha256": "14d08de0b2ebf19d0f868828bc5d775d434ef5ee79127dda82b04e28287692b0",
       "origin": "authored-for-rc0",
       "source_path": null,
       "source_sha256": null,
@@ -1028,5 +1028,5 @@
       "update_policy": "local-steward-proposal-only"
     }
   ],
-  "output_content_sha256": "556950c30b48fa9a1504b8a2cce47241aef9ea907e93ad841b0453d77686b596"
+  "output_content_sha256": "0faa254e5cf717834afeb6a10588881e9a90b62f96b2a4b8ea8952cef7ed76fc"
 }

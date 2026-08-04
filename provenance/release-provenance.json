@@ -2,8 +2,8 @@
   "schema_version": "zenos-rc0-provenance-v1",
   "release_id": "RC0-private-candidate",
   "source_commit_oid": "d5325bddc20da56d9cd40cf25cbfd9a1bd532ce7",
-  "manifest_sha256": "2466c77aa39a9dc1e539417a82595aff0e1919295ce04c8a4e8dde8abcf713e7",
-  "output_content_sha256": "556950c30b48fa9a1504b8a2cce47241aef9ea907e93ad841b0453d77686b596",
+  "manifest_sha256": "f3aabc115bdfcea05962f2ebabb23a18cc496ff991eaa0d6f194b3a8de358033",
+  "output_content_sha256": "0faa254e5cf717834afeb6a10588881e9a90b62f96b2a4b8ea8952cef7ed76fc",
   "history_posture": "clean target history; no source Git objects copied",
   "publication_authorized": false,
   "field_deployment_authorized": false
