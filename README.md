@@ -1,4 +1,4 @@
-# ZenOS RC0 — Start a House for Human–AI Work
+# ZenOS — San Jose Central School
 
 ZenOS is a repository-based environment where people and intelligent
 participants pursue real work through explicit intent, bounded delegation,
@@ -6,8 +6,21 @@ observable evidence, and steward judgment.
 
 ![The ZenOS arrival loop: Intent, Workspace, Delegation, Action, Evidence, Knowledge, Decision, and a wiser Intent](arrival-infographic.svg)
 
-This repository is a **private release candidate for testing and review**. It
-is not yet a public release, client instance, or claim of production fitness.
+This is the house for San Jose Central School. It was started on 2026-09-04
+from the ZenOS RC0 base at commit `d43a0a6`, and it is **private**.
+
+Its first real work is [INT-0002](intents/INT-0002-inset-institutions-of-thought.md)
+— the one-day INSET on **10 September 2026**, *Institutions of Thought: AI in
+Education*. The room for it is
+[WS-0002](workspaces/WS-0002-inset-2026-09-10/workspace.md).
+
+On the day, this repository is the facilitator's screen and the record
+afterwards. Teachers work from a plain folder copied off a USB stick — no Git,
+no accounts, no invitations. That folder is a distribution, not this
+repository.
+
+Nothing here is a public release, an institutional decision of the school, or a
+claim about the quality of anyone's work.
 
 ## Begin here
 
