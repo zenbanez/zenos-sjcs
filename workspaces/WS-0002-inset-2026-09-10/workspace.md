@@ -2,10 +2,10 @@
 id: WS-0002
 type: workspace
 status: active
-version: 1
+version: 2
 steward: zen
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 supersedes: null
 intent: INT-0002
 ---
@@ -73,8 +73,34 @@ session objective and it is not a measure of whether the day worked.
    facilitator's. Confirm the output actually reflects the references rather
    than generic material. If it could have been produced without the folder,
    the connection is not doing what the day depends on.
-3. **Decide the token fallback.** Undecided as of this writing.
-4. **Name the support person**, and give them the day log.
+3. **The token fallback is decided.** When a participant exhausts their Codex
+   free usage, they move to **Muse Spark 1.3, free tier, via OpenCode Zen**
+   (steward, 2026-09-05).
+
+   One thing about it is still unverified and matters more than the choice
+   itself: **can a teacher reach it mid-session without installing anything?**
+   A fallback that needs a terminal, an API key, or a new account is a
+   facilitator's tool, not a room's — and switching thirty people to it at
+   11:15 would recreate the provisioning failure of 12 August at the worst
+   possible moment. Confirm the actual path on the same non-facilitator laptop
+   used for the Codex test, and if it turns out to need setup, the room's real
+   fallback is pairing up and the sheet should say so.
+
+   *Muse Spark 1.3 here names a model reached through a third-party gateway.
+   It is not the house participant `muse-spark`, whose record deliberately
+   declines to tie identity to model lineage. Nothing about this fallback
+   grants that participant standing at this event, and nothing about the
+   participant vouches for this tool.*
+
+4. **The support person is Teacher Rachel Ann** (steward, 2026-09-05). She
+   holds the day log — the counting the facilitator cannot
+   do while teaching — and circulates during the working blocks.
+
+   She is **not** a participant in this house: no registration, no standing, no
+   repository access, and nothing she records is a delegation. She is a
+   colleague doing a job on the day, and the log is paper.
+
+5. **The references are the steward's**, in preparation as of 2026-09-05.
 
 ## Hard boundaries
 
