@@ -2,7 +2,7 @@
 id: WS-0002
 type: workspace
 status: active
-version: 4
+version: 5
 steward: zen
 created: 2026-09-04
 updated: 2026-09-08
@@ -59,14 +59,16 @@ session objective and it is not a measure of whether the day worked.
 ## Directories
 
 - [`references/`](references/) — the school's own materials. **D-002 remains
-  open** — no DLL/DLP template in usable form, no SJCS-specific assessment or
-  rubric templates, no school calendar. The same set goes into the
-  distribution. As of 2026-09-08 it carries
-  [`context-from-zenos-deped/`](references/context-from-zenos-deped/) — PPST
-  and Abridged TPD program-level materials (D-004, background context only)
-  — and [`matatag-curriculum-guides/`](references/matatag-curriculum-guides/)
-  — all 13 official K-6 MATATAG Curriculum Guide PDFs (D-005, genuine
-  curriculum content, a real advance on D-002 but not its close).
+  open** — no SJCS-specific assessment or rubric templates, no school
+  calendar. The same set goes into the distribution. As of 2026-09-08 it
+  carries [`context-from-zenos-deped/`](references/context-from-zenos-deped/)
+  — PPST and Abridged TPD program-level materials (D-004, background context
+  only); [`matatag-curriculum-guides/`](references/matatag-curriculum-guides/)
+  — all 13 official K-6 MATATAG Curriculum Guide PDFs (D-005); and
+  [`dll-dlp-template/`](references/dll-dlp-template/) — the official DLL/DLP
+  template, transcribed to plain text since the source PDF is a scanned
+  image (D-006). Together D-005 and D-006 close the curriculum-content and
+  template portion of D-002; the school-specific pieces remain open.
 - [`distribution/`](distribution/) — a 2026-09-08 mirror of the built INSET
   documents and `SJCS-Workshop/` folder from `zenbanez/zen-os` (D-004). A
   snapshot, not a live link; see its own README before building USB sticks.
