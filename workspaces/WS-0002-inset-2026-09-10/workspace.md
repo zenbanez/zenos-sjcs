@@ -2,10 +2,10 @@
 id: WS-0002
 type: workspace
 status: active
-version: 2
+version: 3
 steward: zen
 created: 2026-09-04
-updated: 2026-09-05
+updated: 2026-09-08
 supersedes: null
 intent: INT-0002
 ---
@@ -58,8 +58,15 @@ session objective and it is not a measure of whether the day worked.
 
 ## Directories
 
-- [`references/`](references/) — the school's own materials. **Empty until the
-  steward fills it.** The same set goes into the distribution.
+- [`references/`](references/) — the school's own materials. **Still empty of
+  the actual curriculum materials; D-002 remains open.** The same set goes
+  into the distribution. As of 2026-09-08 it also carries
+  [`context-from-zenos-deped/`](references/context-from-zenos-deped/) — PPST
+  and Abridged TPD program-level materials mirrored in under D-004, which is
+  background context, not a substitute for D-002.
+- [`distribution/`](distribution/) — a 2026-09-08 mirror of the built INSET
+  documents and `SJCS-Workshop/` folder from `zenbanez/zen-os` (D-004). A
+  snapshot, not a live link; see its own README before building USB sticks.
 - [`returned-work/`](returned-work/) — where handed-in materials land. Empty
   until the day.
 - `notes/` — observations, and later the aggregate of the reflection sheets.
