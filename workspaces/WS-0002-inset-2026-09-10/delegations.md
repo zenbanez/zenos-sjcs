@@ -2,13 +2,40 @@
 id: WS-0002-delegations
 type: delegation-register
 status: active
-version: 3
+version: 4
 steward: zen
 created: 2026-09-04
 updated: 2026-09-08
 supersedes: null
 intent: INT-0002
 ---
+
+## D-006 — Transcribe the official DLL/DLP template (Subok)
+
+- **Delegated by:** zen, direct conversation, 2026-09-08, continuing D-005's
+  brief — the same "official deped PDFs" request covered both the curriculum
+  guides and the DLL/DLP template.
+- **Delegate:** subok, under this house's own standing.
+- **Scope:** Fetch the official DO 42, s. 2016 PDF; confirm it is genuine by
+  direct inspection (letterhead, order number, signature, page structure);
+  render its scanned pages and visually transcribe the blank DLL forms
+  (Annex 1A Kindergarten, Annex 1B Grades 1-12) plus the DLP's structure into
+  a plain-text document, since the source PDF has almost no text layer and
+  an AI client cannot read it directly; add both the transcription and the
+  retained source PDF to `references/dll-dlp-template/` with a provenance
+  README.
+- **What this does and does not do to D-002:** together with D-005, closes
+  the curriculum-guide and template portion of D-002. Still unsupplied:
+  SJCS's own assessment/rubric templates and the school calendar. No
+  school-specific lesson-plan-format override was found (same search as
+  D-005, covering both Region VIII and SDO Tacloban City).
+- **Bounds:** Transcription only — no field, label, or structure was
+  invented; everything traces to what was visually confirmed on a rendered
+  page. Does not claim SJCS uses this template unmodified.
+- **Review condition:** Complete when the transcription is recorded with the
+  retained source PDF and an honest account of what could not be confirmed
+  (no separate DLP table exists; no local override found).
+- **Status:** delivered for review
 
 ## D-005 — Locate and add official MATATAG curriculum guides, K–6 (Subok)
 
@@ -103,12 +130,12 @@ intent: INT-0002
   held by the facilitator and the school, and inventing them would put
   fabricated departmental documents in front of thirty teachers with every
   output inheriting the error.
-- **Partially advanced, 2026-09-08, by D-004 and D-005** — Division-level
-  L&D/TPD context and the official K-6 MATATAG curriculum guides are now in
-  `references/`, both explicitly labeled as not satisfying this delegation.
-  Still unsupplied: the DLL/DLP template in usable form, SJCS's own
-  assessment/rubric templates, and the school calendar. This delegation
-  remains open and held by the steward until those are added.
+- **Partially advanced, 2026-09-08, by D-004, D-005, and D-006** —
+  Division-level L&D/TPD context, the official K-6 MATATAG curriculum
+  guides, and a usable transcription of the official DLL/DLP template are
+  now in `references/`. Still unsupplied, and still the steward's alone:
+  SJCS's own assessment/rubric templates, and the school calendar. This
+  delegation remains open until those are added.
 - **Before:** 10 September, and before the USB sticks are copied.
 - **Status:** open
 
