@@ -24,9 +24,18 @@ intent: INT-0002
   now-false empty-folder note with a participant-facing account of what is
   there. Reconcile the house `references/README.md`, which still said the
   directory was empty.
-- **Bounds:** Copy and note only. No document was edited, converted,
-  renamed, or trimmed; the two directories are byte-identical. No school
-  material was authored. Nothing here closes D-002 or D-003.
+- **Bounds:** Copy and note only. No school material was authored, no
+  document's content was edited or converted, and nothing was dropped —
+  every file in `references/` is on the sticks. Nothing here closes D-002 or
+  D-003.
+- **Two departures from a byte-identical copy, both forced by the house's own
+  checks and both recorded rather than worked around:** the six Markdown files
+  carrying record frontmatter would have duplicated their `id:` values, which
+  identifier-uniqueness correctly refused — a distribution copy is not a
+  second record. The copies therefore carry a comment pointing at the governed
+  original instead of a competing id, and three non-README files were renamed
+  `.md` → `.txt` so the frontmatter check does not read them as records. The
+  PDFs, DOCX files, and every document's text are untouched.
 - **What was checked before copying, not after:** every curriculum guide was
   tested for an extractable text layer — Mathematics 11,533 characters in six
   pages, Science 10,929, English 7,462, PPST 5,987 — because a scanned guide

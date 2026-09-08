@@ -33,10 +33,10 @@ WHAT IS HERE
      The official Daily Lesson Log and Detailed Lesson
      Plan templates, from DepEd Order 42, s. 2016.
 
-     Use "dll-dlp-template.md" when you ask the AI for a
+     Use "dll-dlp-template.txt" when you ask the AI for a
      lesson in the DLL format. The PDF beside it is the
      signed original, but it is a scan - a picture of a
-     document - and the AI cannot read it. The .md file
+     document - and the AI cannot read it. The .txt file
      is the same forms, retyped so it can.
 
   context-from-zenos-deped/
