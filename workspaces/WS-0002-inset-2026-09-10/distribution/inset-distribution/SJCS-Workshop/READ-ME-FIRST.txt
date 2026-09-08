@@ -1,0 +1,127 @@
+===========================================================
+  INSTITUTIONS OF THOUGHT - AI IN EDUCATION
+  San Jose Central School INSET
+===========================================================
+
+Welcome. This folder is yours for the day.
+
+Everything you make today goes in here. At the end of the
+day, the work in this folder becomes something the whole
+school can use - not just you.
+
+You do not need to read all of this now. Three steps.
+
+
+-----------------------------------------------------------
+STEP 1 - COPY THIS FOLDER TO YOUR LAPTOP
+-----------------------------------------------------------
+
+Do not work from the USB stick.
+
+Copy the whole folder to your Desktop first. Then remove
+the USB and pass it on if someone is waiting.
+
+Working from a USB is slow, and if you pull it out by
+accident you can lose what you were writing.
+
+
+-----------------------------------------------------------
+STEP 2 - OPEN CODEX AND POINT IT AT THIS FOLDER
+-----------------------------------------------------------
+
+Open the Codex desktop app you installed before today and
+sign in.
+
+Then open the SJCS-Workshop folder you just copied to your
+Desktop, as your project or working folder.
+
+If you are not sure how, raise your hand. Someone will come
+to you. This is the one step where asking for help is
+faster than figuring it out alone, and nobody is behind.
+
+If you have not signed in before today, do that first. It
+is the step most likely to hold you up, and it is much
+quicker with help than without.
+
+
+-----------------------------------------------------------
+STEP 3 - ASK YOUR FIRST QUESTION
+-----------------------------------------------------------
+
+Open the "guides" folder and look at:
+
+    first-things-to-ask.txt
+
+It has questions you can copy and paste to get started.
+Begin with the one about tomorrow's lesson.
+
+
+-----------------------------------------------------------
+WHAT IS IN THIS FOLDER
+-----------------------------------------------------------
+
+  references
+      Our school's materials - curriculum guides,
+      templates, and other documents. The AI reads these
+      so your work matches what we actually use, instead
+      of something generic from the internet.
+
+  my-work
+      Where you save what you make. There is a note inside
+      about naming your files.
+
+  guides
+      first-things-to-ask.txt   - questions to start with
+      checking-the-work.txt     - how to judge what you get
+
+
+-----------------------------------------------------------
+ONE RULE ABOUT WHAT YOU TYPE
+-----------------------------------------------------------
+
+Do not type a learner's name, a parent's name, an address,
+or a contact number into the AI.
+
+You will often want to describe a real situation - a child
+who is struggling, a family going through something hard.
+Describe it without naming anyone:
+
+    "a learner who has missed a lot of school recently"
+    "a section that is behind in reading"
+
+You can hold the real name in your head. The lesson still
+works. Nothing you know about a child needs to be typed
+anywhere today.
+
+Before you hand a file in, read it once more and take out
+anything that identifies a particular learner.
+
+
+-----------------------------------------------------------
+THE ONE THING WORTH REMEMBERING
+-----------------------------------------------------------
+
+The AI does not know your learners.
+
+It has never met the child in the third row who reads
+two levels below the rest, or the section that is sharp
+in the morning and gone by 2pm. It does not know which
+materials your school actually has.
+
+You know all of that. That is why you are still the one
+deciding.
+
+The AI is here to save you the typing, not the thinking.
+
+
+-----------------------------------------------------------
+IF SOMETHING GOES WRONG
+-----------------------------------------------------------
+
+If the AI stops responding or says you have reached a
+limit, raise your hand. Do not restart anything or
+uninstall anything. There are other ways to keep working
+and someone will get you moving again.
+
+Nothing you have saved in my-work is lost when this
+happens.

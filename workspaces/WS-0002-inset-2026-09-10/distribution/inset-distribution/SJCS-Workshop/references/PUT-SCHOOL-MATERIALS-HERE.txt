@@ -1,0 +1,80 @@
+===========================================================
+  REFERENCES - OUR SCHOOL'S OWN MATERIALS
+===========================================================
+
+  NOTE TO THE FACILITATOR: this folder is EMPTY and must
+  be filled before the USB sticks are copied. See the
+  checklist at the bottom of this page.
+
+  The rest of this note is written for participants.
+
+===========================================================
+
+
+This folder holds our own documents - the curriculum
+guides, the templates we are required to use, and the
+school materials your work should match.
+
+The AI reads these.
+
+That is the whole point of working this way. Ask a general
+AI for a lesson plan and you get something generic,
+written for no school in particular, in a format nobody
+here uses. Ask it here, with these documents in front of
+it, and you get something shaped by what we actually
+teach and the forms we actually fill out.
+
+You will need to look at these when you check your work -
+the first of the seven checks asks whether your lesson
+matches the competency in the curriculum guide, and that
+means opening it.
+
+But you do not have to read them before you start. To use
+them, just mention them:
+
+    "using the templates in the references folder..."
+
+    "matched to the competencies in the curriculum guide..."
+
+
+-----------------------------------------------------------
+PLEASE DO NOT CHANGE THESE FILES
+-----------------------------------------------------------
+
+Everyone is working from the same copies today. If you
+edit one, your work and your colleague's stop matching.
+
+Save your own work in the my-work folder instead.
+
+
+===========================================================
+  FACILITATOR CHECKLIST - BEFORE COPYING THE USB STICKS
+===========================================================
+
+Fill this folder with the materials the day depends on.
+Suggested, based on what the room will actually be asked
+to produce between 10:30 and 2:30:
+
+  [ ] The DLL template teachers are required to use
+  [ ] The lesson plan format expected at this school
+  [ ] Curriculum guides for the learning areas present
+      in the room (check who is attending)
+  [ ] Any assessment or rubric templates already in use
+  [ ] The school calendar for the current quarter
+
+Two cautions worth the thirty seconds:
+
+  1. Check every document for learner names, parent
+     names, addresses, or contact numbers before it goes
+     onto thirty USB sticks. Blank templates are safe.
+     Filled-in samples often are not.
+
+  2. Prefer plain formats - .txt, .md, .docx, .csv. A
+     scanned PDF of a form is an image, and the AI reads
+     it poorly or not at all. If the only copy you have
+     is a scan, retype the blank fields into a plain
+     document. It is worth the effort; a template the AI
+     cannot read is a template the room cannot use.
+
+Delete this checklist section before copying, or leave
+it - participants will simply skip it.

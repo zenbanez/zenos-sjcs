@@ -2,15 +2,46 @@
 id: WS-0002-delegations
 type: delegation-register
 status: active
-version: 1
+version: 2
 steward: zen
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-08
 supersedes: null
 intent: INT-0002
 ---
 
 # WS-0002: Delegations
+
+## D-004 — Add L&D/TPD context from zenos-deped and mirror the zen-os INSET distribution (Subok)
+
+- **Delegated by:** zen, direct conversation, 2026-09-08, in the `zen-os`
+  session: asked whether files could be transferred between repositories,
+  then confirmed two specific, bounded transfers after review of what each
+  actually contained.
+- **Delegate:** subok, arriving in this house under its own standing
+  (`subok-sjcs-arrival-v1`); no history, credit, or authority carried over
+  from `zen-os` or `zenos-deped`.
+- **Scope:**
+  1. Copy the PPST framework, DepEd Order 42, the seven-part Abridged L&D
+     System for TPD booklets, and the KSA job aid from `zenbanez/zenos-deped`
+     (`evidence/sources/`, already admitted there 2026-08-11/12) into
+     `references/context-from-zenos-deped/`, unchanged, with a README
+     stating plainly that this does **not** satisfy D-002.
+  2. Mirror the built INSET distribution and capture instruments from
+     `zenbanez/zen-os` (`WS-0040-lived-house-exposure-improvement/artifacts/`,
+     commit `54a72bb`) into `distribution/`, with a README distinguishing
+     this workspace's own `references/` from the distribution's internal
+     `SJCS-Workshop/references/` placeholder.
+- **Bounds:** Recordkeeping and file transfer only. Does not close D-002 or
+  D-003, which remain the steward's alone. Does not register any teacher, add
+  any collaborator, admit new evidence beyond what each source house already
+  admitted, or change this repository's visibility. Does not assert that the
+  L&D/TPD material satisfies the curriculum-guide gap — the accompanying
+  README says explicitly that it does not.
+- **Review condition:** Complete when both transfers are recorded, each with
+  a README stating its source and its limits, and this register and the
+  INT-0002 progress register agree with what was actually copied.
+- **Status:** delivered for review
 
 ## D-001 — Open the house and the event's room (Subok)
 
