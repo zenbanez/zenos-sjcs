@@ -1,14 +1,7 @@
----
-id: WS-0002-references-dll-dlp-template-readme
-type: workspace-note
-status: active
-version: 1
-steward: zen
-created: 2026-09-08
-updated: 2026-09-08
-supersedes: null
-intent: INT-0002
----
+<!-- Copy for the INSET USB distribution. The governed record with
+     its frontmatter lives in the house at
+     workspaces/WS-0002-inset-2026-09-10/references/ -- this copy is a
+     participant-facing duplicate and is not a separate record. -->
 
 # DLL / DLP template — official source and transcription
 

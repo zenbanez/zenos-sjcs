@@ -1,15 +1,7 @@
----
-id: EV-2026-08-12-ksa-job-aid-admission
-type: source-admission
-status: active
-version: 1
-steward: zen
-created: 2026-08-12
-updated: 2026-08-12
-supersedes: null
-intent: INT-0001
-workspace: WS-0001
----
+<!-- Copy for the INSET USB distribution. The governed record with
+     its frontmatter lives in the house at
+     workspaces/WS-0002-inset-2026-09-10/references/ -- this copy is a
+     participant-facing duplicate and is not a separate record. -->
 
 # Admission Record — KSA Job Aid
 

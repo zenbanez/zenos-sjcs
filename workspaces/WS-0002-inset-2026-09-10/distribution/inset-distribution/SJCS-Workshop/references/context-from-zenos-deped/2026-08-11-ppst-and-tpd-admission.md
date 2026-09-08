@@ -1,13 +1,7 @@
----
-id: EV-2026-08-11-ppst-and-tpd-admission
-type: source-admission
-status: active
-version: 1
-steward: zen
-created: 2026-08-11
-updated: 2026-08-11
-supersedes: null
----
+<!-- Copy for the INSET USB distribution. The governed record with
+     its frontmatter lives in the house at
+     workspaces/WS-0002-inset-2026-09-10/references/ -- this copy is a
+     participant-facing duplicate and is not a separate record. -->
 
 # Admission Record — PPST Framework and Abridged TPD Booklets
 
