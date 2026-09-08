@@ -2,13 +2,43 @@
 id: WS-0002-delegations
 type: delegation-register
 status: active
-version: 2
+version: 3
 steward: zen
 created: 2026-09-04
 updated: 2026-09-08
 supersedes: null
 intent: INT-0002
 ---
+
+## D-005 — Locate and add official MATATAG curriculum guides, K–6 (Subok)
+
+- **Delegated by:** zen, direct conversation, 2026-09-08, in the `zen-os`
+  session: *"for the DLL template and curriculum guides. I think we need the
+  official deped PDFs for that?"* — followed by confirmation to fetch all
+  core K-6 subjects.
+- **Delegate:** subok, under this house's own standing.
+- **Scope:** Confirm the current MATATAG subject structure per grade band
+  (not assumed from the older K-12 curriculum); locate and fetch the official
+  DepEd-published Curriculum Guide PDF for every core K-6 learning area,
+  official-source only; add them to
+  `references/matatag-curriculum-guides/` with a README stating source,
+  coverage, and what remains unconfirmed or unaddressed.
+- **What this does and does not do to D-002:** materially advances it — this
+  is genuine curriculum content, not invented. It does **not** close D-002:
+  the DLL/DLP template, SJCS's own assessment/rubric templates, and the
+  school calendar remain unsupplied, and no school-specific lesson-plan-format
+  override was found despite checking (DepEd Region VIII's regional
+  memoranda and SDO Tacloban City's own memo repository, which currently
+  lists zero uploaded memos).
+- **Bounds:** Only official DepEd-hosted copies were fetched; third-party
+  aggregator sites were used, where needed, only to locate a pointer to the
+  official source, never as the source of file content itself. Does not
+  register any teacher, add any collaborator, or change this repository's
+  visibility.
+- **Review condition:** Complete when all confirmed-official K-6 subject
+  guides are recorded with source provenance, and any coverage gap or
+  unconfirmed item is disclosed rather than papered over.
+- **Status:** delivered for review
 
 # WS-0002: Delegations
 
@@ -73,6 +103,12 @@ intent: INT-0002
   held by the facilitator and the school, and inventing them would put
   fabricated departmental documents in front of thirty teachers with every
   output inheriting the error.
+- **Partially advanced, 2026-09-08, by D-004 and D-005** — Division-level
+  L&D/TPD context and the official K-6 MATATAG curriculum guides are now in
+  `references/`, both explicitly labeled as not satisfying this delegation.
+  Still unsupplied: the DLL/DLP template in usable form, SJCS's own
+  assessment/rubric templates, and the school calendar. This delegation
+  remains open and held by the steward until those are added.
 - **Before:** 10 September, and before the USB sticks are copied.
 - **Status:** open
 
