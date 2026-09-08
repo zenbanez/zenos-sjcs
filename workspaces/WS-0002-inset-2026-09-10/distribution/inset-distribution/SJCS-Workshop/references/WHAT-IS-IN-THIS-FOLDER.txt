@@ -1,0 +1,122 @@
+===========================================================
+  REFERENCES - THE DOCUMENTS YOUR WORK SHOULD MATCH
+===========================================================
+
+
+This folder holds the official documents your lessons are
+supposed to line up with. They are already here. You do
+not have to find or add anything.
+
+The AI reads these.
+
+That is the whole point of working this way. Ask a general
+AI for a lesson plan and you get something generic,
+written for no school in particular, in a format nobody
+here uses. Ask it here, with these documents in front of
+it, and you get something shaped by what we actually
+teach and the forms we actually fill out.
+
+
+-----------------------------------------------------------
+WHAT IS HERE
+-----------------------------------------------------------
+
+  matatag-curriculum-guides/
+
+     The official MATATAG Curriculum Guides covering
+     Kindergarten through Grade 6 - every core learning
+     area. These are the competencies your lesson has to
+     match. Open the one for your learning area.
+
+  dll-dlp-template/
+
+     The official Daily Lesson Log and Detailed Lesson
+     Plan templates, from DepEd Order 42, s. 2016.
+
+     Use "dll-dlp-template.md" when you ask the AI for a
+     lesson in the DLL format. The PDF beside it is the
+     signed original, but it is a scan - a picture of a
+     document - and the AI cannot read it. The .md file
+     is the same forms, retyped so it can.
+
+  context-from-zenos-deped/
+
+     Background: the PPST framework and the Division's
+     professional-development booklets. Useful if you
+     want a lesson tied to a PPST indicator. Not needed
+     for ordinary lesson work - skip it unless you have
+     a reason.
+
+
+-----------------------------------------------------------
+HOW TO USE THEM
+-----------------------------------------------------------
+
+You do not have to read them before you start. To use
+them, just mention them:
+
+    "using the DLL template in the references folder..."
+
+    "matched to the competencies in the Grade 3 Science
+     curriculum guide..."
+
+You will need to open one yourself when you check your
+work - the first of the seven checks asks whether your
+lesson matches the competency in the curriculum guide,
+and that means looking at the guide, not at what the AI
+says about it.
+
+If the AI seems to be guessing rather than quoting, say
+so plainly: "quote the exact competency you used, and
+say which page it came from."
+
+
+-----------------------------------------------------------
+IF A FILE IS TOO BIG FOR THE AI
+-----------------------------------------------------------
+
+Some guides are long - English runs to 255 pages. If the
+AI says the file is too large, or answers about the wrong
+grade, narrow the question:
+
+    "read only the Grade 4 section of the Science
+     curriculum guide"
+
+Tell the facilitator if this happens. A shorter,
+grade-only copy can be made on the spot.
+
+
+-----------------------------------------------------------
+PLEASE DO NOT CHANGE THESE FILES
+-----------------------------------------------------------
+
+Everyone is working from the same copies today. If you
+edit one, your work and your colleague's stop matching.
+
+Save your own work in the my-work folder instead.
+
+
+===========================================================
+  NOTE FOR THE FACILITATOR
+===========================================================
+
+This folder was filled on 2026-09-08 from the house's own
+references directory. The two are meant to stay identical;
+if a document is corrected in one, correct it in both or
+the sticks go stale.
+
+Still not supplied, and still only obtainable from the
+school:
+
+  [ ] SJCS's own assessment or rubric templates
+  [ ] The school calendar for the current quarter
+
+Neither blocks the day. Both would make the 13:00 block
+land closer to real work. Drop them in beside the folders
+above before copying the sticks if they arrive in time.
+
+Size: about 40 MB. Copying to each stick takes longer than
+the rest of the build - start it early.
+
+Delete this section before copying, or leave it -
+participants will simply skip it.

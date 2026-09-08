@@ -2,13 +2,51 @@
 id: WS-0002-delegations
 type: delegation-register
 status: active
-version: 4
+version: 5
 steward: zen
 created: 2026-09-04
 updated: 2026-09-08
 supersedes: null
 intent: INT-0002
 ---
+
+## D-007 — Copy the references into the USB distribution (Subok)
+
+- **Delegated by:** zen, direct conversation, 2026-09-08: *"copy the
+  references into the USB folder. I'll be sure to be ready to generate a
+  chopped-up-version if the files prove too much to ingest."*
+- **Delegate:** subok, under this house's own standing.
+- **Scope:** Copy `references/`'s three delivered groups — the MATATAG
+  curriculum guides, the DLL/DLP template with its transcription, and the
+  `zenos-deped` L&D/TPD context — into
+  `distribution/inset-distribution/SJCS-Workshop/references/`, so the folder
+  that goes on the sticks matches the house's own. Replace the folder's
+  now-false empty-folder note with a participant-facing account of what is
+  there. Reconcile the house `references/README.md`, which still said the
+  directory was empty.
+- **Bounds:** Copy and note only. No document was edited, converted,
+  renamed, or trimmed; the two directories are byte-identical. No school
+  material was authored. Nothing here closes D-002 or D-003.
+- **What was checked before copying, not after:** every curriculum guide was
+  tested for an extractable text layer — Mathematics 11,533 characters in six
+  pages, Science 10,929, English 7,462, PPST 5,987 — because a scanned guide
+  would fail the day's first check silently. The one scan in the set, DO 42
+  s. 2016 at 42 characters across 62 pages, was already caught under D-006 and
+  ships beside its transcription. No document carries learner or parent data;
+  all are official DepEd instruments.
+- **Recorded honestly:** 40 MB now exists twice in this repository, once in
+  `references/` and once in the distribution. That is the cost of the sticks
+  being a straight folder copy, and it is worth it four days out. A build-time
+  copy script would avoid it if the duplication ever becomes a problem.
+- **Left to the steward, not decided here:** whether the eight TPD booklets
+  belong on thirty participant sticks at all. They are Division-level
+  professional-development context rather than lesson material, and the
+  folder is more useful the narrower it is. Copied as instructed; trimming
+  them is one delete.
+- **Review condition:** Complete when the distribution's references match the
+  house's, the participant note describes what is actually there, and the
+  house README no longer says the folder is empty.
+- **Status:** delivered for review
 
 ## D-006 — Transcribe the official DLL/DLP template (Subok)
 

@@ -2,17 +2,25 @@
 id: WS-0002-references
 type: workspace-note
 status: active
-version: 1
+version: 2
 steward: zen
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-08
 supersedes: null
 intent: INT-0002
 ---
 
 # References — the school's own materials
 
-**Empty. The steward fills this before 10 September.**
+**Filled, 2026-09-08 — mostly.** Three groups are here: the official MATATAG
+curriculum guides for K–6, the DLL/DLP template with a plain-text transcription
+of the scanned original, and Division L&D/TPD context carried from
+`zenos-deped`. Copied into the USB distribution the same day under D-007, so
+the two directories match.
+
+**Still the steward's alone, per D-002:** SJCS's own assessment or rubric
+templates, and the school calendar for the current quarter. Neither blocks the
+day; both would make the 13:00 block land closer to real work.
 
 ## What belongs here
 
