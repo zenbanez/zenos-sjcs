@@ -4,3 +4,4 @@
 |---|---|
 | `Zen Bañez <zenbanez@gmail.com>` | `zen` |
 | `Subok <subok@zenos.local>` | `subok` |
+| `Emily AI <emily-ai@zenos.local>` | `emily-ai` |
